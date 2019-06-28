@@ -9,7 +9,8 @@ export default class ProjectDetails extends Component{
             projectAbout: this.props.about,
             projectLearn: this.props.learn,
             projectLink: this.props.link,
-            projectRepo: this.props.repo
+            projectRepo: this.props.repo,
+            index: this.props.index
             // share/star links??
         }
     }
@@ -26,15 +27,15 @@ export default class ProjectDetails extends Component{
         };
         return (
                 <span style={customStyles.content}>
-                    <h2>{this.state.projectTitle}</h2>
-                    <img src={this.state.projectImage} alt={this.state.projectTitle} />
+                    <h2>{this.state.projectTitle[this.state.index]}</h2>
+                    <img src={this.state.projectImage[this.state.index]} alt={this.state.projectTitle[this.state.index]} />
                     <h3>About this Project</h3>
-                    <p>{this.state.projectAbout}</p>
+                    <p>{this.state.projectAbout[this.state.index]}</p>
                     <h3>What I Learned</h3>
-                    <p>{this.state.projectLearn}</p>
+                    <p>{this.state.projectLearn[this.state.index]}</p>
                     <h3>See this Project and my Code</h3>
-                    <a href={this.state.projectLink}>Live Project Site</a>
-                    <a href={this.state.projectRepo}>GitHub Repo</a>
+                    <a href={this.state.projectLink[this.state.index]}>Live Project Site</a>
+                    <a href={this.state.projectRepo[this.state.index]}>GitHub Repo</a>
                 </span>
         )
     }
