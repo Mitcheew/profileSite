@@ -1,5 +1,7 @@
 import React, { Component } from "react"
 import Slider from 'react-slick'
+import ProjectDetails from "./projectDetails"
+import Popup from 'reactjs-popup'
 
 export default class Carousel extends Component {
     constructor() {
@@ -43,10 +45,13 @@ export default class Carousel extends Component {
     render() {
         let photoReel = this.state.project.map(project => {
             return (
-                <a href="" className='center-slide' key={project.project_id}>
+                <Popup trigger={<a className='center-slide'>
                     <img className='post-preview' src={project.image} alt="" />
                     <p>{project.title}</p>
                 </a>
+                } modal
+                // style={customStyles.content}
+                ><ProjectDetails image={project.image} title={project.title} about={'About text'} learn={'hi learn'} link={0} repo={0} /></Popup>
             )
         })
         let settings = {
@@ -69,7 +74,8 @@ export default class Carousel extends Component {
                     {...settings}
                 >
                     {photoReel}
-                </Slider>                </div>
+                </Slider>
+            </div>
         )
     }
 
