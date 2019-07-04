@@ -90,8 +90,8 @@ export default function Carousel() {
             setLearn(phLearn)
             setLink(phLink)
             setRepo(phRepo)
-            setIndex(newIndex)
         }
+            setIndex(newIndex)
             setPopupTrigger(true)
     }
     function popupClose() {

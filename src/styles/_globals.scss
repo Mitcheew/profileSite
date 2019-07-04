@@ -55,12 +55,11 @@ table {
 
 
 // ===== 2. VARIABLES ===== //
-$white: rgba(233, 233, 233, 0.205);
-$light: #F18805;
-$medium: #D95D39;
-$dark: #202C59;
-$side-nav: 160px;
-$font-color: #F0A202;
+$white: rgb(255, 255, 255);
+$light: rgb(190, 190, 190);
+$medium: rgb(125, 125, 125);
+$dark: rgb(60, 60, 60);
+$font-color: rgb(0, 0, 0);
 
 // ===== 3. MIXINS ===== //
 
@@ -243,7 +242,6 @@ a {
 @media only screen and (min-width: 751px) {
 	.desktop-body {
 		position: relative;
-		margin-left: $side-nav;
 		width: 60%;
 		margin-left: calc((100% - 60%)/1.5);
 		min-height: 100%;
