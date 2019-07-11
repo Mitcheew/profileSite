@@ -81,7 +81,7 @@ $font-color: rgb(0, 0, 0);
 // ===== 5. GLOBALS ===== //
 @import url('https://fonts.googleapis.com/css?family=Oswald:700');
 body {
-	background: $medium;
+	background: $dark;
 	box-sizing: border-box;
 }
 h1 {
@@ -225,19 +225,10 @@ a {
 	background: $white;
 	min-height: calc(100% - 50px);
 }
-.header-background {
-	margin-top: 50px;
-	margin-bottom: 10px;
-	height: 200px;
-	width: 100%;
-	// background-image: url('../images/mt_timpanogos.jpg');
-	background-size: cover;
-	background-position: center;
-	h1 {
-		background-color: $white;
-		display: flex;
-		justify-content: center;
-	}
+.App {
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
 }
 @media only screen and (min-width: 751px) {
 	.desktop-body {

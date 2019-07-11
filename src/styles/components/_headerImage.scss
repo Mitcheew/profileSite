@@ -1,0 +1,24 @@
+.headerImage {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    overflow: hidden;
+    background: $white;
+    .headerPic{
+	margin-top: 50px;
+    }
+    .profilePic {
+        position: relative;
+        top: -150px;
+        border-radius: 100%;
+    }
+	.profileDescription {
+        max-width: 300px;
+        font-size: 18px;
+        position: relative;
+        top: -150px;
+	}
+}

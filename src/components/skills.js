@@ -9,7 +9,7 @@ import ReactLogo from "../images/react.png"
 export default class Skills extends Component {
     render() {
         return (
-            <div>
+            <div className="skillsPage">
                 <span className="skillsList">
                     <img src={ReactLogo} alt="React" />
                     <p>React</p>
