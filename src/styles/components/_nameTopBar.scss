@@ -1,9 +1,10 @@
 .topNameBar {
     background: rgba(0, 0, 0, .8);
     color: rgba(255, 255, 255, 1);
+    overflow: hidden;
     position: absolute;
-    top: 0px;
     width: 100%;
+    max-width: 1200px;
     height: 50px;
     p {
         position: relative;
