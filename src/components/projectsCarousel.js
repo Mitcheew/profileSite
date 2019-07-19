@@ -110,16 +110,16 @@ export default function Carousel() {
         lazyLoad: true,
         infinite: true,
         speed: 100,
-        slidesToShow: photoReel.length < 5 ?
+        slidesToShow: photoReel.length < 3 ?
             photoReel.length
             :
-            5,
+            3,
         slidesToScroll: 1,
         swipeToSlide: true
 
     };
     return (
-        <div>
+        <div className="sliderSection">
             <Popup open={popupTrigger} closeOnDocumentClick onClose={popupClose} modal
             // style={customStyles.content}
             ><ProjectDetails image={image} title={title} about={about} learn={learn} link={link} repo={repo} index={index} /></Popup>
