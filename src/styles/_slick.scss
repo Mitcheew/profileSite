@@ -9,7 +9,7 @@
     margin: 0 auto;
     display: block;
     box-sizing: border-box;
-    background: $light;
+    background: $white;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
@@ -116,6 +116,11 @@
 
     border: 1px solid transparent;
 }
+.slick-arrow {
+    height: 120px;
+    margin-top: 30px;
+    background:$white;
+}
 .slick-arrow.slick-hidden {
     display: none;
 }
@@ -194,8 +199,8 @@
     font-size: 20px;
     line-height: 1;
 
-    opacity: .75;
-    color: black;
+    opacity: 1;
+    color: white;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -327,7 +332,6 @@
 
 // ========== SECONDARY SLIDER ===============//
 .SliderPhotos {
-    margin-top: 10px;
 
     .slick-slider
     {
@@ -411,8 +415,8 @@
     font-size: 20px;
     line-height: 1;
 
-    opacity: .75;
-    color: black;
+    opacity: 1;
+    color: white;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

@@ -1,6 +1,7 @@
 import React, { Component, useState } from "react"
 import Slider from 'react-slick'
 import ProjectDetails from "./projectDetails"
+import Media from 'react-media';
 import Popup from 'reactjs-popup'
 import ProPic from '../images/noImage.jpg'
 
@@ -91,8 +92,8 @@ export default function Carousel() {
             setLink(phLink)
             setRepo(phRepo)
         }
-            setIndex(newIndex)
-            setPopupTrigger(true)
+        setIndex(newIndex)
+        setPopupTrigger(true)
     }
     function popupClose() {
         setPopupTrigger(false)
@@ -105,6 +106,7 @@ export default function Carousel() {
             </span>
         )
     })
+
     let settings = {
         dots: false,
         lazyLoad: true,
@@ -118,17 +120,48 @@ export default function Carousel() {
         swipeToSlide: true
 
     };
+    let mobileSettings = {
+        dots: false,
+        lazyLoad: true,
+        infinite: true,
+        speed: 100,
+        slidesToShow: photoReel.length <= 1 ?
+            photoReel.length
+            :
+            1,
+        slidesToScroll: 1,
+        swipeToSlide: true
+
+    };
     return (
         <div className="sliderSection">
             <Popup open={popupTrigger} closeOnDocumentClick onClose={popupClose} modal
             // style={customStyles.content}
             ><ProjectDetails image={image} title={title} about={about} learn={learn} link={link} repo={repo} index={index} /></Popup>
-            <Slider
-                className='SliderPhotos'
-                {...settings}
-            >
-                {photoReel}
-            </Slider>
+            <h2>My Projects</h2>
+            < Media query='(max-width: 751px)' >
+                {matches => matches ?
+                    (
+                        <Slider
+                            className='SliderPhotos'
+                            {...mobileSettings}
+                        >
+                            {photoReel}
+                        </Slider>
+
+                    )
+                    :
+                    (
+                        <Slider
+                            className='SliderPhotos'
+                            {...settings}
+                        >
+                            {photoReel}
+                        </Slider>
+                    )
+                }
+            </Media >
+
         </div>
     )
 
