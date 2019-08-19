@@ -1,4 +1,6 @@
 import React, { Component } from "react"
+import Resume from "./../resume/EthanMitchellResume.pdf"
+import ProPic from '../images/noImage.jpg'
 
 export default class Contact extends Component {
     render() {
@@ -8,7 +10,7 @@ export default class Contact extends Component {
                 <div>
                     <span>
                         <h3>Step 1:</h3>
-                        <img src="" alt="" />
+                        <a href={Resume}><img src={ProPic} alt="" /></a>
                     </span>
                     <span>
                         <h3>Step 2:</h3>
