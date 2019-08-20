@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react"
+import React, { useState } from "react"
 import Slider from 'react-slick'
 import ProjectDetails from "./projectDetails"
 import Media from 'react-media';

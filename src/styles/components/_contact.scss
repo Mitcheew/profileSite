@@ -1,0 +1,29 @@
+.contactSection {
+  // position: relative;
+  // top: -125px;
+  background: $light;
+  h2 {
+    text-align: center;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 0;
+    span {
+      h3 {
+        text-align: center;
+      }
+      a {
+        margin: 0 auto;
+      }
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    div {
+      flex-direction: column;
+    }
+  }
+}

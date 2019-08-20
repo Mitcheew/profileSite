@@ -1,11 +1,18 @@
 .sliderSection {
-    h2 {
-        margin: 0;
-        padding: 10px;
-        text-align: center;
-        font-weight: 0;
-    }
-    position: relative;
-    top: -120px;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%,  rgba(255,255,255,1) 10%,  rgba(255,255,255,1) 90%,  rgba(0,0,0,1) 100%,)
+  h2 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-weight: 0;
+  }
+  // position: relative;
+  // top: -120px;
+  padding-bottom: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(255, 255, 255, 1) 90%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
