@@ -11,7 +11,7 @@ export default class Contact extends Component {
                     <span>
                         <h3>View or download my Resume</h3>
                         <img src={ProPic} alt="" />
-                        <a href={Resume} rel="noopener noreferrer" target="_blank"><button>View Resume</button></a>
+                        <a href={Resume} rel="noopener noreferrer" target="_blank"><button>View My Resume</button></a>
                     </span>
                     <span>
                         <h3>Email me!</h3>
