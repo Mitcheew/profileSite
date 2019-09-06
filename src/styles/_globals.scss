@@ -55,11 +55,12 @@ table {
 
 
 // ===== 2. VARIABLES ===== //
-$white: rgb(255, 255, 255);
-$light: rgb(190, 190, 190);
-$medium: rgb(125, 125, 125);
-$dark: rgb(60, 60, 60);
-$font-color: rgb(0, 0, 0);
+$text-white: white;
+$text-black: black;
+$white: rgb(172,203,255);
+$light: rgb(146,187,255);
+$medium: rgb(120,170,255);
+$dark: rgb(100,158,255);
 
 // ===== 3. MIXINS ===== //
 
@@ -149,7 +150,7 @@ button:hover {
 		text-align: center;
 		background: rgba(0, 0, 0, .5);
 		padding: 5px 0;
-		color: $white;
+		color: $text-white;
 		width: 120px;
 		margin: 0 auto;
 	}

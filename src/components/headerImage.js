@@ -1,6 +1,6 @@
 import React from "react"
-import HdrImg from "../images/header-placeholder.png"
-import ProPic from "../images/noImage.jpg"
+import HdrImg from "../images/mt_timpanogos.jpg"
+import ProPic from "../images/profilePic.jpg"
 
 export default function HeaderImage() {
     return (
