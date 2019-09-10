@@ -5,12 +5,12 @@ export default function ProjectDetails(props) {
     
     const [index, setIndex] = useState(props.index)
     const [numberOfProjects, setNumberOfProjects] = useState(props.numberOfProjects)
-    function nextProject(){
-        numberOfProjects === index + 1? setIndex(0) : setIndex(index + 1)
-    }
-    function previousProject(){
-        index === 0? setIndex(numberOfProjects - 1) : setIndex( index - 1)
-    }
+    // function nextProject(){
+    //     numberOfProjects === index + 1? setIndex(0) : setIndex(index + 1)
+    // }
+    // function previousProject(){
+    //     index === 0? setIndex(numberOfProjects - 1) : setIndex( index - 1)
+    // }
     return (
         <span id="projectDetails">
             <h2>{props.title[index]}</h2>

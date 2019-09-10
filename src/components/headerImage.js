@@ -7,7 +7,7 @@ export default function HeaderImage() {
             <span className="headerImage">
                 <img className="headerPic" src={HdrImg} alt="" />
                 <img className="profilePic" src={ProPic} alt="Ethan" />
-                <p className="profileDescription">I am a Full Stack Web Developer specializing in React, Redux, Node, GraphQL, PostgreSQL</p>
+                <p className="profileDescription">I am a Full Stack Web Developer specializing in React, Redux, Node, PostgreSQL</p>
             </span>
     )
 

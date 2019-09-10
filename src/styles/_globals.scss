@@ -146,16 +146,19 @@ button:hover {
 	@include flexo(row, center, center);
 	img{
 		width: 200px;
+		border-radius: 10px;
+		box-shadow: 3px 3px 5px $medium;
 	}
 	p {
 		position: relative;
 		top: -26px;
 		text-align: center;
-		background: rgba(0, 0, 0, .5);
+		background: rgba(0, 0, 0, .8);
 		padding: 5px 0;
 		color: $text-white;
 		width: 200px;
 		margin: 0 auto;
+		border-radius: 0px 0px 10px 10px;
 	}
 }
 a {

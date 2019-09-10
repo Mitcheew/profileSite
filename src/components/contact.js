@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Resume from "./../resume/EthanMitchellResume.pdf"
-import ProPic from '../images/noImage.jpg'
+import ResumePic from '../images/resumePhoto.png'
+import EmailPic from '../images/email.jpg'
 
 export default class Contact extends Component {
     render() {
@@ -10,12 +11,12 @@ export default class Contact extends Component {
                 <div>
                     <span>
                         <h3>View or download my Resume</h3>
-                        <img src={ProPic} alt="" />
+                        <img src={ResumePic} alt="" />
                         <a href={Resume} rel="noopener noreferrer" target="_blank"><button>View My Resume</button></a>
                     </span>
                     <span>
                         <h3>Email me!</h3>
-                        <img src={ProPic} alt="" />
+                        <img src={EmailPic} alt="" />
                         <a href="mailto:ethan@ethanwmitchell.com?subject=(Message from ethanwmitchell.com)" rel="noopener noreferrer" target="_blank"><button>Send Me a Message</button></a>
                     </span>
                     {/* <span>
