@@ -144,6 +144,9 @@ button:hover {
 }
 .center-slide {
 	@include flexo(row, center, center);
+	img{
+		width: 200px;
+	}
 	p {
 		position: relative;
 		top: -26px;
@@ -151,7 +154,7 @@ button:hover {
 		background: rgba(0, 0, 0, .5);
 		padding: 5px 0;
 		color: $text-white;
-		width: 120px;
+		width: 200px;
 		margin: 0 auto;
 	}
 }
