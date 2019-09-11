@@ -24,11 +24,10 @@
       a {
         margin: 0 auto;
         button{
-          background: $medium;
+          background: $white;
         }
         button:hover{
-          background: $dark;
-          color: white;
+          background: white;
         }
       }
       display: flex;

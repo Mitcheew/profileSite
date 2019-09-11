@@ -15,7 +15,7 @@ export default function Carousel() {
             title: 'Private Blog',
             about: 'This is one of the first few projects I did as I was learning. This is a site where you can create, view and delete posts if you have an admin level account or just view as any other type of user.',
             learn: 'I learned a lot about how to use postgreSQL when making this site. I also started to learn how to use some CSS and some modules to make the site look better organized. I used HashRouter to help navigate between the different pages.',
-            link: 'https://blog.ethanwmitchell.com/#/',
+            link: 'http://blog.ethanwmitchell.com/#/',
             repo: 'https://github.com/Mitcheew/personalPrivateBlog'
         },
         {
@@ -33,7 +33,7 @@ export default function Carousel() {
             title: 'Profile Site',
             about: 'This project was created post-graduation so that I could have a profile site created from scratch by me. My brother helped come up with the design and I tweaked it to my liking.',
             learn: 'While working on this site, I learned about and used react-hooks and I learned more fully how to take advantage of the features of CSS and SASS. The next steps is to learn and implement a GraphQL database so that I can add that to my skillset and be able to put in more projects in the future without having to update a specific page every time I want to add a new project.',
-            link: 'https://www.ethanwmitchell.com/',
+            link: 'http://www.ethanwmitchell.com/',
             repo: 'https://github.com/Mitcheew/profileSite'
         }
     ])
