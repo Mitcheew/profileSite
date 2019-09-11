@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import AngularLogo from "../images/angular.png"
-import GraphqlLogo from "../images/graphql.png"
+// import GraphqlLogo from "../images/graphql.png"
 import JavascriptLogo from "../images/javascript.png"
 import NodeLogo from "../images/node.png"
 import PostgresLogo from "../images/postgres.png"

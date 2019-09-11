@@ -8,7 +8,7 @@ import BlogPic from '../images/blog.PNG'
 import FridgePic from '../images/FridgeRaider.PNG'
 
 export default function Carousel() {
-    const [project, setProject] = useState([
+    const [project] = useState([
         {
             project_id: 0,
             image: BlogPic,

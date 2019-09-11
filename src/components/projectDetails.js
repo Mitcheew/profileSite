@@ -3,8 +3,8 @@ import React, {useState} from "react"
 export default function ProjectDetails(props) {
     // share/star links??
     
-    const [index, setIndex] = useState(props.index)
-    const [numberOfProjects, setNumberOfProjects] = useState(props.numberOfProjects)
+    const [index] = useState(props.index)
+    // const [numberOfProjects, setNumberOfProjects] = useState(props.numberOfProjects)
     // function nextProject(){
     //     numberOfProjects === index + 1? setIndex(0) : setIndex(index + 1)
     // }
@@ -23,8 +23,8 @@ export default function ProjectDetails(props) {
             <h3>What I Learned</h3>
             <p>{props.learn[index]}</p>
             <span className="projectLinks">
-                <a href={props.link[index]} target="_blank">Project Site</a>
-                <a href={props.repo[index]} target="_blank">GitHub Repo</a>
+                <a href={props.link[index]} target="_blank" rel="noopener noreferrer">Project Site</a>
+                <a href={props.repo[index]} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
             </span>
         </span>
     )
