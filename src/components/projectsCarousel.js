@@ -15,7 +15,7 @@ export default function Carousel() {
             title: 'Private Blog',
             about: 'This is one of the first few projects I did as I was learning. This is a site where you can create, view and delete posts if you have an admin level account or just view as any other type of user.',
             learn: 'I learned a lot about how to use postgreSQL when making this site. I also started to learn how to use some CSS and some modules to make the site look better organized. I used HashRouter to help navigate between the different pages.',
-            link: '',
+            link: '#',
             repo: 'https://github.com/Mitcheew/personalPrivateBlog'
         },
         {
