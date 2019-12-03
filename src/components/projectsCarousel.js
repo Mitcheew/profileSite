@@ -15,7 +15,7 @@ export default function Carousel() {
             title: 'Private Blog',
             about: 'This is one of the first few projects I did as I was learning. This is a site where you can create, view and delete posts if you have an admin level account or just view as any other type of user.',
             learn: 'I learned a lot about how to use postgreSQL when making this site. I also started to learn how to use some CSS and some modules to make the site look better organized. I used HashRouter to help navigate between the different pages.',
-            link: '#',
+            link: 'http://www.blog.ethanwmitchell.com',
             repo: 'https://github.com/Mitcheew/personalPrivateBlog'
         },
         {
@@ -24,7 +24,7 @@ export default function Carousel() {
             title: 'Fridge-Raiders',
             about: 'This was a final group project so that we could graduate from DevMountain. Our group which consisted of Lara Potjewyd, James Stevens, and I decided to create a recipe finding app where you find recipes based on manually entered ingredients',
             learn: 'I learned how valuable it is to communicate with others on your team who are working on the same project and to divide up responsibilities. My primary job was to create the backend and integrate our chosen API, but I was also able to help my other team members when they got stuck on something and vice-versa. I also learned how valuable time management is and how to prioritize which features you need more than others.',
-            link: 'https://fridge-raiders.site/#/',
+            link: 'https://fridge-raiders.herokuapp.com/#/',
             repo: 'https://github.com/Fridgerators/fridgeraider'
         },
         {
